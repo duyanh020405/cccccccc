@@ -1,0 +1,633 @@
+.homepage-candidate {
+  position: relative;
+  width: 100%;
+  height: 870px;
+  background-color: var(--white);
+}
+.homepage-candidate .div-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.homepage-candidate .div-3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+.homepage-candidate .div-4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+.homepage-candidate .frame-11 {
+  display: flex;
+  width: 1200px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 0px 24px;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dddddd;
+}
+.homepage-candidate .rectangle {
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 12, 45, 0) 0%,
+    rgb(19, 12, 45) 100%
+  );
+}
+.homepage-candidate .frame-12 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .IMG {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background-color: var(--gray-25);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #cccccc;
+}
+
+.homepage-candidate .dta {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.homepage-candidate .frame-13 {
+  display: flex;
+  flex-direction: column;
+  width: 269px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.homepage-candidate .name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--display-sm-bold-font-family);
+  font-weight: var(--display-sm-bold-font-weight);
+  color: var(--black);
+  font-size: var(--display-sm-bold-font-size);
+  letter-spacing: var(--display-sm-bold-letter-spacing);
+  line-height: var(--display-sm-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--display-sm-bold-font-style);
+}
+
+.homepage-candidate .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-700);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage-candidate .badge {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .badge-base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--error-50);
+  border-radius: 11px;
+}
+
+.homepage-candidate .text {
+  font-family: "SF Pro Display-Regular", Helvetica;
+  color: var(--error-700);
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.homepage-candidate .frame-14 {
+  display: flex;
+  flex-direction: column;
+  width: 242px;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .div-4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .img-5 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.homepage-candidate .frame-15 {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--gray-900);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage-candidate .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 180px;
+  align-items: flex-start;
+  position: relative;
+  border-radius: 8px;
+}
+
+.homepage-candidate .button-base {
+  display: flex;
+  gap: 8px;
+  padding: 10px 16px;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--brand-600);
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #ab1f24;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-xs);
+}
+
+.homepage-candidate .text-2 {
+  font-family: var(--text-sm-semibold-font-family);
+  color: var(--white);
+  font-size: var(--text-sm-semibold-font-size);
+  line-height: var(--text-sm-semibold-line-height);
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-weight: var(--text-sm-semibold-font-weight);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--text-sm-semibold-font-style);
+}
+
+.homepage-candidate .heading-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  top: 287px;
+  left: 120px;
+}
+
+.homepage-candidate .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--gray-900);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.homepage-candidate .CV {
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  top: 335px;
+  left: 426px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-candidate .overlap {
+  position: relative;
+  height: 210px;
+  background-image: url(./uploads/candidateDetail/img_image-644.png);
+  background-size: cover;
+  background-position: 0% 0%;
+  object-fit: cover;
+}
+
+.homepage-candidate .rectangle {
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 12, 45, 0) 0%,
+    rgb(19, 12, 45) 100%
+  );
+}
+
+.homepage-candidate .button-base-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 178px;
+  left: 12px;
+  border-radius: 8px;
+}
+
+.homepage-candidate .button-base-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 4px 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff99;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow-xs);
+}
+
+.homepage-candidate .img-6 {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+
+.homepage-candidate .text-3 {
+  position: relative;
+  width: fit-content;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: 10px;
+  white-space: nowrap;
+}
+
+.homepage-candidate .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 178px;
+  left: 81px;
+  border-radius: 8px;
+}
+
+.homepage-candidate .button-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 178px;
+  left: 250px;
+  border-radius: 8px;
+}
+
+.homepage-candidate .trash-wrapper {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  flex: 0 0 auto;
+  background-color: #ffffff99;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-xs);
+}
+
+.homepage-candidate .text-wrapper-14 {
+  position: absolute;
+  width: 227px;
+  top: 109px;
+  left: 12px;
+  font-family: var(--text-sm-bold-font-family);
+  font-weight: var(--text-sm-bold-font-weight);
+  color: var(--white);
+  font-size: var(--text-sm-bold-font-size);
+  letter-spacing: var(--text-sm-bold-letter-spacing);
+  line-height: var(--text-sm-bold-line-height);
+  font-style: var(--text-sm-bold-font-style);
+}
+
+.homepage-candidate .text-wrapper-15 {
+  position: absolute;
+  width: 227px;
+  height: 16px;
+  top: 153px;
+  left: 12px;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.homepage-candidate .overlap-wrapper {
+  top: 569px;
+  left: 120px;
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-candidate .overlap-group-wrapper {
+  top: 335px;
+  left: 120px;
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-candidate .overlap-2 {
+  height: 210px;
+  background-image: url(./uploads/candidateDetail/img_image-644-2.png);
+  position: relative;
+  background-size: cover;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.homepage-candidate .CV-2 {
+  top: 569px;
+  left: 732px;
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-candidate .CV-3 {
+  top: 569px;
+  left: 1038px;
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-candidate .CV-4 {
+  top: 335px;
+  left: 732px;
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-candidate .overlap-3 {
+  position: relative;
+  height: 210px;
+  background-image: url(./uploads/candidateDetail/img_image-644-3.png);
+  background-size: cover;
+  background-position: 0% 0%;
+  object-fit: cover;
+}
+
+.homepage-candidate .CV-5 {
+  top: 400px;
+  left: 1038px;
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-candidate .CV-6 {
+  top: 569px;
+  left: 426px;
+  position: absolute;
+  width: 282px;
+  height: 210px;
+  background-color: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.homepage-candidate .header {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-color: #dddddd;
+}
+
+.homepage-candidate .logo-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .logo {
+  position: relative;
+  width: 138.59px;
+  height: 32.16px;
+  margin-top: -0.16px;
+  margin-left: -0.59px;
+}
+
+.homepage-candidate .menu-list {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 4px 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .jobs {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-weight: 400;
+  color: var(--gray-900);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage-candidate .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .language {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 16px 0px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #cccccc;
+}
+
+.homepage-candidate .VNI {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage-candidate .text-wrapper-16 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-weight: 400;
+  color: var(--gray-900);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.homepage-candidate .dropdown {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.homepage-candidate .avatar {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  top: -4px;
+  left: -4px;
+  border-radius: 200px;
+  border: 4px solid;
+  border-color: #f8e9ea;
+  background-image: url(./img/avatar.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}

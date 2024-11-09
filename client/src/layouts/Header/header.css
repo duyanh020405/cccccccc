@@ -1,0 +1,179 @@
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    position: relative;
+    background-color: var(--white);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+  }
+  
+  .header .logo-menu {
+    display: inline-flex;
+    align-items: center;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .logo {
+    position: relative;
+    width: 138.59px;
+    height: 32.16px;
+    margin-top: -0.16px;
+    margin-left: -0.59px;
+  }
+  
+  .header .menu-list {
+    gap: 24px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .menu {
+    justify-content: center;
+    gap: 4px;
+    padding: 4px 12px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .jobs {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--gray-900);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .header .div {
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  .header .div .button {
+    cursor: pointer;
+  }
+  
+  .header .language {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 16px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #cccccc;
+  }
+  
+  .header .VN {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .header .VNI {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--gray-900);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .header .arrow-down {
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .header .button {
+    all: unset;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-radius: 8px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .button-base {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .text {
+    color: var(--gray-600);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .header .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--brand-600);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #ab1f24;
+    box-shadow: var(--shadow-xs);
+  }
+  
+  .header .text-2 {
+    color: var(--white);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }

@@ -1,0 +1,209 @@
+.pop-up {
+    position: relative;
+    width: 460px;
+    height: 270px;
+    background-color: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.pop-up .input-dropdown {
+    position: absolute;
+    width: 412px;
+    height: 70px;
+    top: 96px;
+    left: 24px;
+}
+
+.pop-up .input-dropdown-base {
+    display: flex;
+    flex-direction: column;
+    width: 412px;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+}
+
+.pop-up .input-with-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.pop-up .label {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--text-sm-semibold-font-family);
+    font-weight: var(--text-sm-semibold-font-weight);
+    color: var(--black);
+    font-size: var(--text-sm-semibold-font-size);
+    letter-spacing: var(--text-sm-semibold-letter-spacing);
+    line-height: var(--text-sm-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-sm-semibold-font-style);
+}
+
+.pop-up .input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #cccccc;
+    box-shadow: var(--shadow-xs);
+}
+
+.pop-up .content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.pop-up .text {
+    font-family: "SF Pro Display-Regular", Helvetica;
+    color: var(--gray-900);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.pop-up .frame {
+    display: flex;
+    width: 412px;
+    align-items: center;
+    gap: 4px;
+    padding: 0px 0px 16px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+}
+
+.pop-up .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--text-xl-bold-font-family);
+    font-weight: var(--text-xl-bold-font-weight);
+    color: var(--black);
+    font-size: var(--text-xl-bold-font-size);
+    letter-spacing: var(--text-xl-bold-letter-spacing);
+    line-height: var(--text-xl-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-xl-bold-font-style);
+}
+
+.pop-up .button {
+    all: unset;
+    box-sizing: border-box;
+    width: 225px;
+    align-items: flex-start;
+    position: absolute;
+    top: 198px;
+    left: 211px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.pop-up .button-base {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--brand-600);
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #ab1f24;
+    box-shadow: var(--shadow-xs);
+    display: flex;
+    border-radius: 8px;
+}
+
+.pop-up .add-circle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.pop-up .div {
+    font-family: var(--text-md-semibold-font-family);
+    color: var(--white);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-weight: var(--text-md-semibold-font-weight);
+    font-size: var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height: var(--text-md-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-semibold-font-style);
+}
+
+.pop-up .button-base-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    width: 171px;
+    align-items: flex-start;
+    position: absolute;
+    top: 198px;
+    left: 24px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.pop-up .div-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--gray-50);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #f4f4f4;
+    box-shadow: var(--shadow-xs);
+}
+
+.pop-up .text-2 {
+    font-family: var(--text-md-semibold-font-family);
+    color: var(--gray-900);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-weight: var(--text-md-semibold-font-weight);
+    font-size: var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height: var(--text-md-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-semibold-font-style);
+}

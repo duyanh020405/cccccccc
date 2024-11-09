@@ -1,0 +1,57 @@
+.job-manager {
+    padding: 20px;
+}
+
+.business {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.job-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.job-table th,
+.job-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.job-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+.job-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.job-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.job-table td {
+    color: #555;
+}
+
+.job-table td:last-child {
+    text-align: center;
+}

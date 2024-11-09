@@ -1,0 +1,390 @@
+register css
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.messeger {
+  color: red;
+}
+
+.ng-k {
+  background-color: #ffffff;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .overlap {
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 601px;
+}
+
+.ng-k .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  left: 120px;
+  position: absolute;
+  top: 221px;
+  width: 481px;
+}
+
+.ng-k .login-form {
+  margin-top: -40%;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+  left: 20%;
+}
+
+.ng-k .title {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .logo {
+  height: 32px;
+  position: relative;
+  width: 138px;
+}
+
+.ng-k .frame {
+  margin-top: -5%;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .text-wrapper {
+  color: var(--black);
+  font-family: var(--display-sm-bold-font-family);
+  font-size: var(--display-sm-bold-font-size);
+  font-style: var(--display-sm-bold-font-style);
+  font-weight: var(--display-sm-bold-font-weight);
+  letter-spacing: var(--display-sm-bold-letter-spacing);
+  line-height: var(--display-sm-bold-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+input:hover {
+  outline: none;
+}
+
+input {
+  outline: none;
+
+}
+
+.ng-k .div {
+  align-self: stretch;
+  color: var(--gray-800);
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+  position: relative;
+}
+
+.ng-k .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .input-field {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .div-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .label {
+  background: transparent;
+  border: none;
+  color: var(--gray-900);
+  font-family: var(--text-sm-medium-font-family);
+  font-size: var(--text-sm-medium-font-size);
+  font-style: var(--text-sm-medium-font-style);
+  font-weight: var(--text-sm-medium-font-weight);
+  letter-spacing: var(--text-sm-medium-letter-spacing);
+  line-height: var(--text-sm-medium-line-height);
+  margin-top: -1.00px;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ng-k .input {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #b5b5b5;
+  border-radius: 8px;
+  box-shadow: var(--shadow-xs);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  overflow: hidden;
+  padding: 12px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .content-2 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.ng-k .img {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.ng-k .text {
+  background: transparent;
+  border: none;
+  color: var(--gray-500);
+  flex: 1;
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+  margin-top: -1.00px;
+  padding: 0;
+  position: relative;
+}
+
+.ng-k .label-2 {
+  color: var(--gray-900);
+  font-family: var(--text-sm-medium-font-family);
+  font-size: var(--text-sm-medium-font-size);
+  font-style: var(--text-sm-medium-font-style);
+  font-weight: var(--text-sm-medium-font-weight);
+  letter-spacing: var(--text-sm-medium-letter-spacing);
+  line-height: var(--text-sm-medium-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ng-k .text-2 {
+  color: var(--gray-500);
+  flex: 1;
+  font-family: var(--text-md-regular-font-family);
+  font-size: var(--text-md-regular-font-size);
+  font-style: var(--text-md-regular-font-style);
+  font-weight: var(--text-md-regular-font-weight);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.ng-k .eye-slash {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.ng-k .button-group {
+  cursor: pointer;
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .button {
+  all: unset;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 4px;
+  box-shadow: var(--shadow-xs-focused-4px-gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.ng-k .button-base {
+  margin-top: 3%;
+  align-items: center;
+  background-color: var(--brand-500);
+  border: 1px solid;
+  border-color: #bc2228;
+  border-radius: 8px;
+  box-shadow: var(--shadow-xs);
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 12px 20px;
+  position: relative;
+}
+
+.ng-k .text-3 {
+  color: var(--white);
+  font-family: var(--text-md-bold-font-family);
+  font-size: var(--text-md-bold-font-size);
+  font-style: var(--text-md-bold-font-style);
+  font-weight: var(--text-md-bold-font-weight);
+  letter-spacing: var(--text-md-bold-letter-spacing);
+  line-height: var(--text-md-bold-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ng-k .decor {
+  height: 30%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+
+.ng-k .IMG {
+  background-color: var(--brand-500);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+
+.ng-k .overlap-group {
+  height: 100vh;
+  background-image: url(../../../../public/uploads/register/img-dta05370-1.png);
+  background-size: cover;
+  background-position: 80% 80%;
+}
+
+.ng-k .rectangle {
+  width: 0%;
+  height: 100vh;
+  background: linear-gradient(180deg,
+      rgba(25, 16, 58, 0.24) 0%,
+      rgba(25, 16, 58, 0.2) 100%);
+}
+
+.sign-in {
+  display: flex;
+  gap: 8px;
+  margin-left: 130px
+}
+
+.p {
+  color: var(--gray-700);
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-wrapper-3 {
+  cursor: pointer;
+  color: var(--brand-600);
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.errorMesseger{
+  margin-top: 8px;
+  color: red;
+}
+
+.box-eye{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.fa-eye{
+  margin-top: 2px;
+  font-size: 14px;
+}
+.fa-user{
+  opacity: 0.4;
+}
+
+.messegerTrue{
+  margin-top: 3%;
+}

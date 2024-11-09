@@ -1,0 +1,1276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dashboard-tin-tuyn {
+    position: relative;
+    width: 1440px;
+    height: 1205px;
+    background-color: var(--gray-25);
+}
+
+.dashboard-tin-tuyn .footer {
+    position: absolute;
+    width: 1440px;
+    height: 673px;
+    top: 1032px;
+    left: 0;
+    background-color: var(--brand-600);
+}
+
+.dashboard-tin-tuyn .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 673px;
+    background-image: url(./img/image.png);
+    background-size: 100% 100%;
+}
+
+.dashboard-tin-tuyn .frame {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0px 0px 24px;
+    position: absolute;
+    top: 72px;
+    left: 120px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #ffffff;
+}
+
+.dashboard-tin-tuyn .img {
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -0.38px;
+}
+
+.dashboard-tin-tuyn .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-xl-regular-font-family);
+    font-weight: var(--text-xl-regular-font-weight);
+    color: #ffffff;
+    font-size: var(--text-xl-regular-font-size);
+    letter-spacing: var(--text-xl-regular-letter-spacing);
+    line-height: var(--text-xl-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--text-xl-regular-font-style);
+}
+
+.dashboard-tin-tuyn .div {
+    display: flex;
+    flex-direction: column;
+    width: 481px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 217px;
+    left: 120px;
+}
+
+.dashboard-tin-tuyn .heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.dashboard-tin-tuyn .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .hotline {
+    display: flex;
+    width: 415px;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .featured-icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-color: var(--white);
+    border-radius: 24px;
+}
+
+.dashboard-tin-tuyn .img-2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 8px;
+    left: 8px;
+}
+
+.dashboard-tin-tuyn .hotline-2 {
+    display: flex;
+    width: 396px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    margin-right: -25.00px;
+}
+
+.dashboard-tin-tuyn .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--text-md-bold-font-family);
+    font-weight: var(--text-md-bold-font-weight);
+    color: #ffffff;
+    font-size: var(--text-md-bold-font-size);
+    letter-spacing: var(--text-md-bold-letter-spacing);
+    line-height: var(--text-md-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-bold-font-style);
+}
+
+.dashboard-tin-tuyn .p {
+    position: relative;
+    width: 300px;
+    margin-top: -1.00px;
+    margin-right: -12.00px;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.dashboard-tin-tuyn .hotline-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .div-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--text-lg-bold-font-family);
+    font-weight: var(--text-lg-bold-font-weight);
+    color: #ffffff;
+    font-size: var(--text-lg-bold-font-size);
+    letter-spacing: var(--text-lg-bold-letter-spacing);
+    line-height: var(--text-lg-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-lg-bold-font-style);
+}
+
+.dashboard-tin-tuyn .frame-3 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 217px;
+    left: 1044px;
+}
+
+.dashboard-tin-tuyn .frame-4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .img-3 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.dashboard-tin-tuyn .frame-5 {
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 217px;
+    left: 633px;
+}
+
+.dashboard-tin-tuyn .frame-6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .text-wrapper-5 {
+    position: relative;
+    width: 263px;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.dashboard-tin-tuyn .text-wrapper-6 {
+    position: relative;
+    width: 263px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.dashboard-tin-tuyn .line {
+    position: absolute;
+    width: 1200px;
+    height: 1px;
+    top: 440px;
+    left: 120px;
+    object-fit: cover;
+}
+
+.dashboard-tin-tuyn .frame-7 {
+    display: flex;
+    flex-direction: column;
+    width: 379px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 465px;
+    left: 120px;
+}
+
+.dashboard-tin-tuyn .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--text-md-bold-font-family);
+    font-weight: var(--text-md-bold-font-weight);
+    color: #ffffff;
+    font-size: var(--text-md-bold-font-size);
+    letter-spacing: var(--text-md-bold-letter-spacing);
+    line-height: var(--text-md-bold-line-height);
+    font-style: var(--text-md-bold-font-style);
+}
+
+.dashboard-tin-tuyn .hotline-4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .hotline-5 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .text-wrapper-8 {
+    position: relative;
+    width: 264px;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.dashboard-tin-tuyn .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: 379px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 465px;
+    left: 531px;
+}
+
+.dashboard-tin-tuyn .frame-9 {
+    display: flex;
+    flex-direction: column;
+    width: 379px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 465px;
+    left: 942px;
+}
+
+.dashboard-tin-tuyn .frame-10 {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    top: 639px;
+    left: 120px;
+}
+
+.dashboard-tin-tuyn .img-4 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+
+.dashboard-tin-tuyn .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--text-xs-regular-font-family);
+    font-weight: var(--text-xs-regular-font-weight);
+    color: #ffffff;
+    font-size: var(--text-xs-regular-font-size);
+    letter-spacing: var(--text-xs-regular-letter-spacing);
+    line-height: var(--text-xs-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--text-xs-regular-font-style);
+}
+
+.dashboard-tin-tuyn .sidebar {
+    position: absolute;
+    width: 402px;
+    height: 952px;
+    top: 80px;
+    left: 0;
+    background-color: var(--white);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #f4f4f4;
+}
+
+.dashboard-tin-tuyn .button {
+    display: flex;
+    flex-direction: column;
+    width: 338px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    top: 24px;
+    left: 32px;
+}
+
+.dashboard-tin-tuyn .infor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0px 0px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+}
+
+.dashboard-tin-tuyn .avt {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .dropdown {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.dashboard-tin-tuyn .name {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-700);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .sidebar-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .button-side {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dashboard-tin-tuyn .img-5 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.dashboard-tin-tuyn .text {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--text-md-semibold-font-family);
+    font-weight: var(--text-md-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height: var(--text-md-semibold-line-height);
+    font-style: var(--text-md-semibold-font-style);
+}
+
+.dashboard-tin-tuyn .button-side-2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--brand-50);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #f8e9ea;
+    box-shadow: 0px 1px 2px #1018280d;
+}
+
+.dashboard-tin-tuyn .text-2 {
+    flex: 1;
+    font-family: var(--text-md-semibold-font-family);
+    font-weight: var(--text-md-semibold-font-weight);
+    color: var(--brand-600);
+    font-size: var(--text-md-semibold-font-size);
+    line-height: var(--text-md-semibold-line-height);
+    position: relative;
+    margin-top: -1.00px;
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    font-style: var(--text-md-semibold-font-style);
+}
+
+.dashboard-tin-tuyn .text-wrapper-12 {
+    position: absolute;
+    width: 588px;
+    top: 111px;
+    left: 426px;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--gray-900);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.dashboard-tin-tuyn .frame-11 {
+    position: absolute;
+    width: 982px;
+    height: 792px;
+    top: 160px;
+    left: 426px;
+    background-color: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.dashboard-tin-tuyn .frame-12 {
+    display: flex;
+    width: 918px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 32px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+}
+
+.dashboard-tin-tuyn .frame-13 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #3d3d3d;
+}
+
+.dashboard-tin-tuyn .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-xs-bold-font-family);
+    font-weight: var(--text-xs-bold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-xs-bold-font-size);
+    letter-spacing: var(--text-xs-bold-letter-spacing);
+    line-height: var(--text-xs-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-xs-bold-font-style);
+}
+
+.dashboard-tin-tuyn .badge {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .badge-base {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--brand-500);
+    border-radius: 16px;
+}
+
+.dashboard-tin-tuyn .text-3 {
+    width: fit-content;
+    font-family: var(--text-xs-medium-font-family);
+    font-weight: var(--text-xs-medium-font-weight);
+    color: var(--white);
+    font-size: var(--text-xs-medium-font-size);
+    text-align: center;
+    line-height: var(--text-xs-medium-line-height);
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1.00px;
+    letter-spacing: var(--text-xs-medium-letter-spacing);
+    font-style: var(--text-xs-medium-font-style);
+}
+
+.dashboard-tin-tuyn .frame-14 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .text-wrapper-14 {
+    position: absolute;
+    top: 129px;
+    left: 102px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--gray-700);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .text-wrapper-15 {
+    position: absolute;
+    top: 129px;
+    left: 408px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--gray-700);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .text-wrapper-16 {
+    position: absolute;
+    top: 129px;
+    left: 613px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--gray-700);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .input-field {
+    display: flex;
+    flex-direction: column;
+    width: 454px;
+    align-items: flex-start;
+    position: absolute;
+    top: 62px;
+    left: 32px;
+}
+
+.dashboard-tin-tuyn .input-field-base {
+    display: flex;
+    flex-direction: column;
+    height: 44px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.dashboard-tin-tuyn .input-with-label {
+    display: flex;
+    flex-direction: column;
+    height: 44px;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.dashboard-tin-tuyn .input {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 16px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #dddddd;
+}
+
+.dashboard-tin-tuyn .text-4 {
+    width: fit-content;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-700);
+    font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1.00px;
+    letter-spacing: 0;
+}
+
+.dashboard-tin-tuyn .setting {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 130px;
+    left: 32px;
+}
+
+.dashboard-tin-tuyn .frame-15 {
+    position: absolute;
+    width: 918px;
+    height: 103px;
+    top: 170px;
+    left: 32px;
+}
+
+.dashboard-tin-tuyn .frame-16 {
+    display: flex;
+    flex-direction: column;
+    width: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dashboard-tin-tuyn .img-6 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 16px;
+}
+
+.dashboard-tin-tuyn .frame-17 {
+    display: flex;
+    flex-direction: column;
+    width: 132px;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 0;
+    left: 376px;
+}
+
+.dashboard-tin-tuyn .l-t-ng-tuy-n {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-800);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 12px;
+}
+
+.dashboard-tin-tuyn .span {
+    color: #3d3d3d;
+    line-height: 18px;
+}
+
+.dashboard-tin-tuyn .text-wrapper-17 {
+    font-family: var(--text-xs-bold-font-family);
+    font-weight: var(--text-xs-bold-font-weight);
+    color: #3d3d3d;
+    line-height: var(--text-xs-bold-line-height);
+    font-style: var(--text-xs-bold-font-style);
+    letter-spacing: var(--text-xs-bold-letter-spacing);
+    font-size: var(--text-xs-bold-font-size);
+}
+
+.dashboard-tin-tuyn .frame-18 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .text-wrapper-18 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-800);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .frame-19 {
+    display: flex;
+    flex-direction: column;
+    width: 132px;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 0;
+    left: 581px;
+}
+
+.dashboard-tin-tuyn .frame-20 {
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.dashboard-tin-tuyn .badges {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 8px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--gray-50);
+    border-radius: 4px;
+}
+
+.dashboard-tin-tuyn .content {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .text-5 {
+    width: fit-content;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-700);
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1.00px;
+    letter-spacing: 0;
+}
+
+.dashboard-tin-tuyn .content-wrapper {
+    background-color: var(--success-50);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 8px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 4px;
+}
+
+.dashboard-tin-tuyn .text-6 {
+    width: fit-content;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--success-600);
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1.00px;
+    letter-spacing: 0;
+}
+
+.dashboard-tin-tuyn .text-wrapper-19 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-xs-semibold-font-family);
+    font-weight: var(--text-xs-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-xs-semibold-font-size);
+    letter-spacing: var(--text-xs-semibold-letter-spacing);
+    line-height: var(--text-xs-semibold-line-height);
+    font-style: var(--text-xs-semibold-font-style);
+}
+
+.dashboard-tin-tuyn .text-wrapper-20 {
+    position: relative;
+    align-self: stretch;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-400);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.dashboard-tin-tuyn .div-wrapper {
+    background-color: var(--brand-25);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 8px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 4px;
+}
+
+.dashboard-tin-tuyn .text-7 {
+    width: fit-content;
+    font-family: var(--text-xs-bold-font-family);
+    font-weight: var(--text-xs-bold-font-weight);
+    color: var(--brand-600);
+    font-size: var(--text-xs-bold-font-size);
+    line-height: var(--text-xs-bold-line-height);
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1.00px;
+    letter-spacing: var(--text-xs-bold-letter-spacing);
+    font-style: var(--text-xs-bold-font-style);
+}
+
+.dashboard-tin-tuyn .frame-21 {
+    position: absolute;
+    width: 918px;
+    height: 121px;
+    top: 311px;
+    left: 32px;
+}
+
+.dashboard-tin-tuyn .edit {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+}
+
+.dashboard-tin-tuyn .trash {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 28px;
+    left: 0;
+}
+
+.dashboard-tin-tuyn .badges-2 {
+    background-color: var(--warning-50);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 8px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 4px;
+}
+
+.dashboard-tin-tuyn .text-8 {
+    width: fit-content;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--warning-600);
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1.00px;
+    letter-spacing: 0;
+}
+
+.dashboard-tin-tuyn .frame-22 {
+    position: absolute;
+    width: 918px;
+    height: 121px;
+    top: 452px;
+    left: 32px;
+}
+
+.dashboard-tin-tuyn .badges-3 {
+    background-color: var(--brand-50);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 8px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 4px;
+}
+
+.dashboard-tin-tuyn .text-9 {
+    width: fit-content;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--brand-500);
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1.00px;
+    letter-spacing: 0;
+}
+
+.dashboard-tin-tuyn .frame-23 {
+    position: absolute;
+    width: 918px;
+    height: 103px;
+    top: 593px;
+    left: 32px;
+}
+
+.dashboard-tin-tuyn .pagination {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 728px;
+    left: 646px;
+}
+
+.dashboard-tin-tuyn .pagination-numbers {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .pagination-number {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: var(--brand-50);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.dashboard-tin-tuyn .number-wrapper {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.dashboard-tin-tuyn .number {
+    position: relative;
+    width: fit-content;
+    margin-top: -3.00px;
+    margin-bottom: -1.00px;
+    font-family: var(--text-sm-medium-font-family);
+    font-weight: var(--text-sm-medium-font-weight);
+    color: var(--brand-600);
+    font-size: var(--text-sm-medium-font-size);
+    text-align: center;
+    letter-spacing: var(--text-sm-medium-letter-spacing);
+    line-height: var(--text-sm-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-sm-medium-font-style);
+}
+
+.dashboard-tin-tuyn .pagination-number-2 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.dashboard-tin-tuyn .number-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -3.00px;
+    margin-bottom: -1.00px;
+    font-family: var(--text-sm-medium-font-family);
+    font-weight: var(--text-sm-medium-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-sm-medium-font-size);
+    text-align: center;
+    letter-spacing: var(--text-sm-medium-letter-spacing);
+    line-height: var(--text-sm-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-sm-medium-font-style);
+}
+
+.dashboard-tin-tuyn .img-wrapper {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    gap: 4px;
+    padding: 12px;
+    position: relative;
+    background-color: var(--gray-50);
+    border-radius: 20px;
+}
+
+.dashboard-tin-tuyn .header {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-color: #dddddd;
+}
+
+.dashboard-tin-tuyn .logo-menu {
+    display: inline-flex;
+    align-items: center;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .logo {
+    position: relative;
+    width: 138.59px;
+    height: 32.16px;
+    margin-top: -0.16px;
+    margin-left: -0.59px;
+}
+
+.dashboard-tin-tuyn .menu-list {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 4px 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .jobs {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--gray-900);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .language {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 16px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #cccccc;
+}
+
+.dashboard-tin-tuyn .VNI {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.dashboard-tin-tuyn .text-wrapper-21 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--gray-900);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.dashboard-tin-tuyn .avatar-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.dashboard-tin-tuyn .avatar {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 200px;
+    background-image: url(./img/avatar.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}

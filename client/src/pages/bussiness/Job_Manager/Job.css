@@ -1,0 +1,189 @@
+/* General container for the Job List */
+.job-list {
+    width: 100%;
+    max-width: 1350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Error message styling */
+.error-message {
+    text-align: center;
+    color: red;
+    font-size: 1.2rem;
+}
+
+/* Table container with overflow */
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: grey;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+tr:hover {
+    background-color: #f9fafb;
+}
+
+td {
+    color: #2c3e50;
+}
+
+/* Edit and Delete buttons */
+.btn-edit,
+.btn-delete {
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-edit {
+    background-color: grey;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: black;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+.btn-edit:focus,
+.btn-delete:focus {
+    outline: none;
+}
+
+.search-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.btn-reset {
+    height: 42px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.sort-options button {
+    margin-right: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: grey;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: grey;
+    color: white;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.sort-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.sort-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sort-btn:hover {
+    background-color: grey;
+    transform: scale(1.05);
+}
+
+.sort-btn svg {
+    margin-right: 8px;
+    /* Add space between icon and text */
+}
+
+.sort-btn:active {
+    background-color: grey;
+}
